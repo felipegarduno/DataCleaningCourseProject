@@ -23,171 +23,92 @@ Here is the list of variables that are contained in the “tidy_data.txt” data
 Note: the t prefix indicates time, the f prefix indicates frequency. Acc means acceleration and Gyro means gyroscope. The x, y and z at the end of some variables indicates the axis.
 For more information about the variables, please refer to “features_info.txt” contained in the zip file downloaded from the url mentioned above.
 
-Position | Variable Name                | Description
 
-- - - - | :- - - - - :                  | :——————————:
- 
-1       |  subject                     | 
- 
-2       |  activityname                |
+| Position | Variable Name                | Description 
+| -------- | :--------------------------: | :----------:
+| 1        | subject                      | 
+| 2        | activityname                 |
+| 3        | activity                     |
+| 4        | tbodyaccmeanx                |
+| 5        | tbodyaccmeany                |
+| 6        | tbodyaccmeanz                |
+| 7        | tgravityaccmeanx             |
+| 8        | tgravityaccmeany             |
+| 9        | tgravityaccmeanz             |
+| 10       | tbodyaccjerkmeanx            |
+| 11       | tbodyaccjerkmeany            |
+| 12       | tbodyaccjerkmeanz            |
+| 13       | tbodygyromeanx               |
+| 14       | tbodygyromeany               |
+| 15       | tbodygyromeanz               |
+| 16       | tbodygyrojerkmeanx           |
+| 17       | tbodygyrojerkmeany           |
+| 18       | tbodygyrojerkmeanz           |
+| 19       | tbodyaccmagmean              |
+| 20       | tgravityaccmagmean           |
+| 21       | tbodyaccjerkmagmean          |
+| 22       | tbodygyromagmean             |
+| 23       | tbodygyrojerkmagmean         |
+| 24       | fbodyaccmeanx                |
+| 25       | fbodyaccmeany                |
+| 26       | fbodyaccmeanz                |
+| 27       | fbodyaccmeanfreqx            |
+| 28       | fbodyaccmeanfreqy            |
+| 29       | fbodyaccmeanfreqz            |
+| 30       | fbodyaccjerkmeanx            |
+| 31       | fbodyaccjerkmeany            |
+| 32       | fbodyaccjerkmeanz            |
+| 33       | fbodyaccjerkmeanfreqx        |
+| 34       | fbodyaccjerkmeanfreqy        |
+| 35       | fbodyaccjerkmeanfreqz        |
+| 36       | fbodygyromeanx               |
+| 37       | fbodygyromeany               |
+| 38       | fbodygyromeanz               |
+| 39       | fbodygyromeanfreqx           |
+| 40       | fbodygyromeanfreqy           |
+| 41       | fbodygyromeanfreqz           |
+| 42       | fbodyaccmagmean              |
+| 43       | fbodyaccmagmeanfreq          |
+| 44       | fbodybodyaccjerkmagmean      |
+| 45       | fbodybodyaccjerkmagmeanfreq  |
+| 46       | fbodybodygyromagmean         |
+| 47       | fbodybodygyromagmeanfreq     |
+| 48       | fbodybodygyrojerkmagmean     |
+| 49       | fbodybodygyrojerkmagmeanfreq |
+| 50       | tbodyaccstdx                 |
+| 51       | tbodyaccstdy                 |
+| 52       | tbodyaccstdz                 |
+| 53       | tgravityaccstdx              |
+| 54       | tgravityaccstdy              |
+| 55       | tgravityaccstdz              |
+| 56       | tbodyaccjerkstdx             |
+| 57       | tbodyaccjerkstdy             |
+| 58       | tbodyaccjerkstdz             |
+| 59       | tbodygyrostdx                |
+| 60       | tbodygyrostdy                |
+| 61       | tbodygyrostdz                |
+| 62       | tbodygyrojerkstdx            |
+| 63       | tbodygyrojerkstdy            |
+| 64       | tbodygyrojerkstdz            |
+| 65       | tbodyaccmagstd               |
+| 66       | tgravityaccmagstd            |
+| 67       | tbodyaccjerkmagstd           |
+| 68       | tbodygyromagstd              |
+| 69       | tbodygyrojerkmagstd          |
+| 70       | fbodyaccstdx                 |
+| 71       | fbodyaccstdy                 |
+| 72       | fbodyaccstdz                 |
+| 73       | fbodyaccjerkstdx             |
+| 74       | fbodyaccjerkstdy             |
+| 75       | fbodyaccjerkstdz             |
+| 76       | fbodygyrostdx                |
+| 77       | fbodygyrostdy                |
+| 78       | fbodygyrostdz                |
+| 79       | fbodyaccmagstd               |
+| 80       | fbodybodyaccjerkmagstd       |
+| 81       | fbodybodygyromagstd          |
+| 82       | fbodybodygyrojerkmagstd      |
 
-3       |  activity                    |
 
-4       | tbodyaccmeanx                |
 
-5       | tbodyaccmeany                |
-
-6       | tbodyaccmeanz                |
-
-7       | tgravityaccmeanx             |
-
-8       | tgravityaccmeany             |
-
-9       | tgravityaccmeanz             |
-
-10      | tbodyaccjerkmeanx            |
-
-11      | tbodyaccjerkmeany            |
-
-12      | tbodyaccjerkmeanz            |
-
-13      | tbodygyromeanx               |
-
-14      | tbodygyromeany               |
-
-15      | tbodygyromeanz               |
-
-16      | tbodygyrojerkmeanx           |
-
-17      | tbodygyrojerkmeany           |
-
-18      | tbodygyrojerkmeanz           |
-
-19      | tbodyaccmagmean              |
-
-20      | tgravityaccmagmean           |
-
-21      | tbodyaccjerkmagmean          |
-
-22      | tbodygyromagmean             |
-
-23      | tbodygyrojerkmagmean         |
-
-24      | fbodyaccmeanx                |
-
-25      | fbodyaccmeany                |
-
-26      | fbodyaccmeanz                |
-
-27      | fbodyaccmeanfreqx            |
-   
-28      |  fbodyaccmeanfreqy           |
-
-29      | fbodyaccmeanfreqz            |
-
-30      | fbodyaccjerkmeanx            |
-
-31      | fbodyaccjerkmeany            |
-
-32      | fbodyaccjerkmeanz            |
-
-33      | fbodyaccjerkmeanfreqx        |
-
-34      | fbodyaccjerkmeanfreqy        |
-
-35      | fbodyaccjerkmeanfreqz        |
-
-36      | fbodygyromeanx               |
-
-37      | fbodygyromeany               |
-
-38      | fbodygyromeanz               |
-
-39      | fbodygyromeanfreqx           |
-
-40      | fbodygyromeanfreqy           |
-
-41      | fbodygyromeanfreqz           |
-
-42      | fbodyaccmagmean              |
-
-43      | fbodyaccmagmeanfreq          |
-
-44      | fbodybodyaccjerkmagmean      |
-
-45      | fbodybodyaccjerkmagmeanfreq  |
-
-46      | fbodybodygyromagmean         |
-
-47      | fbodybodygyromagmeanfreq     |
-
-48      |  fbodybodygyrojerkmagmean    |
-
-49      | fbodybodygyrojerkmagmeanfreq |
-
-50      |  tbodyaccstdx                |
-
-51      | tbodyaccstdy                 |
-
-52      | tbodyaccstdz                 |
-
-53      | tgravityaccstdx              |
-
-54      | tgravityaccstdy              |
-
-55      | tgravityaccstdz              |
-
-56      | tbodyaccjerkstdx             |
-
-57      | tbodyaccjerkstdy             |
-
-58      | tbodyaccjerkstdz             |
-
-59      | tbodygyrostdx                |
-
-60      | tbodygyrostdy                |
-
-61      | tbodygyrostdz                |
-
-62      | tbodygyrojerkstdx            |
-
-63      | tbodygyrojerkstdy            |
-
-64      | tbodygyrojerkstdz            |
-
-65      | tbodyaccmagstd               |
-
-66      | tgravityaccmagstd            |
-
-67      | tbodyaccjerkmagstd           |
-
-68      | tbodygyromagstd              |
-
-69      | tbodygyrojerkmagstd          |
-
-70      | fbodyaccstdx                 |
-
-71      | fbodyaccstdy                 |
-
-72      | fbodyaccstdz                 |
-
-73      | fbodyaccjerkstdx             |
-
-74      | fbodyaccjerkstdy             |
-
-75      | fbodyaccjerkstdz             |
-
-76      | fbodygyrostdx                |
-
-77      | fbodygyrostdy                |
-
-78      | fbodygyrostdz                |
-
-79      | fbodyaccmagstd               |
-
-80      | fbodybodyaccjerkmagstd       |
-
-81      | fbodybodygyromagstd          |
-
-82      | fbodybodygyrojerkmagstd      |
 
