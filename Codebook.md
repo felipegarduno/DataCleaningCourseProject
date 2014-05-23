@@ -23,9 +23,9 @@ Here is the list of variables that are contained in the “tidy_data.txt” data
 Note: the t prefix indicates time, the f prefix indicates frequency. Acc means acceleration and Gyro means gyroscope. The x, y and z at the end of some variables indicates the axis.
 For more information about the variables, please refer to “features_info.txt” contained in the zip file downloaded from the url mentioned above.
 
-Position| Variable Name                |Description
+Position | Variable Name                | Description
 
-- - - - |:- - - - - :                  |:——————————:
+- - - - | :- - - - - :                  | :——————————:
  
 1       |  subject                     | 
  
