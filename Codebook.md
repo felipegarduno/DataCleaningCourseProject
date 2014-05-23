@@ -25,7 +25,8 @@ For more information about the variables, please refer to “features_info.txt�
 
 Position| Variable Name                |Description
 
-————————|:-——————————:                 |:——————————: 
+- - - - |:- - - - - :                  |:——————————:
+ 
 1       |  subject                     | 
  
 2       |  activityname                |
