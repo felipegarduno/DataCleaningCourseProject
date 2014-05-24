@@ -26,88 +26,88 @@ For more information about the variables, please refer to â€œfeatures_info.txtâ€
 
 | Position | Variable Name                | Description 
 | -------- | :--------------------------: | :----------:
-| 1        | subject                      | 
-| 2        | activityname                 |
-| 3        | activity                     |
-| 4        | tbodyaccmeanx                |
-| 5        | tbodyaccmeany                |
-| 6        | tbodyaccmeanz                |
-| 7        | tgravityaccmeanx             |
-| 8        | tgravityaccmeany             |
-| 9        | tgravityaccmeanz             |
-| 10       | tbodyaccjerkmeanx            |
-| 11       | tbodyaccjerkmeany            |
-| 12       | tbodyaccjerkmeanz            |
-| 13       | tbodygyromeanx               |
-| 14       | tbodygyromeany               |
-| 15       | tbodygyromeanz               |
-| 16       | tbodygyrojerkmeanx           |
-| 17       | tbodygyrojerkmeany           |
-| 18       | tbodygyrojerkmeanz           |
-| 19       | tbodyaccmagmean              |
-| 20       | tgravityaccmagmean           |
-| 21       | tbodyaccjerkmagmean          |
-| 22       | tbodygyromagmean             |
-| 23       | tbodygyrojerkmagmean         |
-| 24       | fbodyaccmeanx                |
-| 25       | fbodyaccmeany                |
-| 26       | fbodyaccmeanz                |
-| 27       | fbodyaccmeanfreqx            |
-| 28       | fbodyaccmeanfreqy            |
-| 29       | fbodyaccmeanfreqz            |
-| 30       | fbodyaccjerkmeanx            |
-| 31       | fbodyaccjerkmeany            |
-| 32       | fbodyaccjerkmeanz            |
-| 33       | fbodyaccjerkmeanfreqx        |
-| 34       | fbodyaccjerkmeanfreqy        |
-| 35       | fbodyaccjerkmeanfreqz        |
-| 36       | fbodygyromeanx               |
-| 37       | fbodygyromeany               |
-| 38       | fbodygyromeanz               |
-| 39       | fbodygyromeanfreqx           |
-| 40       | fbodygyromeanfreqy           |
-| 41       | fbodygyromeanfreqz           |
-| 42       | fbodyaccmagmean              |
-| 43       | fbodyaccmagmeanfreq          |
-| 44       | fbodybodyaccjerkmagmean      |
-| 45       | fbodybodyaccjerkmagmeanfreq  |
-| 46       | fbodybodygyromagmean         |
-| 47       | fbodybodygyromagmeanfreq     |
-| 48       | fbodybodygyrojerkmagmean     |
-| 49       | fbodybodygyrojerkmagmeanfreq |
-| 50       | tbodyaccstdx                 |
-| 51       | tbodyaccstdy                 |
-| 52       | tbodyaccstdz                 |
-| 53       | tgravityaccstdx              |
-| 54       | tgravityaccstdy              |
-| 55       | tgravityaccstdz              |
-| 56       | tbodyaccjerkstdx             |
-| 57       | tbodyaccjerkstdy             |
-| 58       | tbodyaccjerkstdz             |
-| 59       | tbodygyrostdx                |
-| 60       | tbodygyrostdy                |
-| 61       | tbodygyrostdz                |
-| 62       | tbodygyrojerkstdx            |
-| 63       | tbodygyrojerkstdy            |
-| 64       | tbodygyrojerkstdz            |
-| 65       | tbodyaccmagstd               |
-| 66       | tgravityaccmagstd            |
-| 67       | tbodyaccjerkmagstd           |
-| 68       | tbodygyromagstd              |
-| 69       | tbodygyrojerkmagstd          |
-| 70       | fbodyaccstdx                 |
-| 71       | fbodyaccstdy                 |
-| 72       | fbodyaccstdz                 |
-| 73       | fbodyaccjerkstdx             |
-| 74       | fbodyaccjerkstdy             |
-| 75       | fbodyaccjerkstdz             |
-| 76       | fbodygyrostdx                |
-| 77       | fbodygyrostdy                |
-| 78       | fbodygyrostdz                |
-| 79       | fbodyaccmagstd               |
-| 80       | fbodybodyaccjerkmagstd       |
-| 81       | fbodybodygyromagstd          |
-| 82       | fbodybodygyrojerkmagstd      |
+| 1        | subject                      | The subject id 
+| 2        | activityname                 | The name of the activity
+| 3        | activity                     | The code of the activity
+| 4        | tbodyaccmeanx                | Mean of time body acceleration signals in x-axis
+| 5        | tbodyaccmeany                | Mean of time body acceleration signals in y-axis
+| 6        | tbodyaccmeanz                | Mean of time body acceleration signals in z-axis
+| 7        | tgravityaccmeanx             | Mean of time gravity acceleration signals in x-axis
+| 8        | tgravityaccmeany             | Mean of time gravity acceleration signals in y-axis
+| 9        | tgravityaccmeanz             | Mean of time gravity acceleration signals in z-axis
+| 10       | tbodyaccjerkmeanx            | Mean of time body acceleration Jerk signals in x-axis
+| 11       | tbodyaccjerkmeany            | Mean of time body acceleration Jerk signals in y-axis
+| 12       | tbodyaccjerkmeanz            | Mean of time body acceleration Jerk signals in z-axis
+| 13       | tbodygyromeanx               | Mean of time body gyroscope signals in x-axis
+| 14       | tbodygyromeany               | Mean of time body gyroscope signals in y-axis
+| 15       | tbodygyromeanz               | Mean of time body gyroscope signals in z-axis
+| 16       | tbodygyrojerkmeanx           | Mean of time body gyroscope Jerk signals in x-axis
+| 17       | tbodygyrojerkmeany           | Mean of time body gyroscope Jerk signals in y-axis
+| 18       | tbodygyrojerkmeanz           | Mean of time body gyroscope Jerk signals in z-axis
+| 19       | tbodyaccmagmean              | Mean of time body acceleration magnitude
+| 20       | tgravityaccmagmean           | Mean of time gravity acceleration magnitude
+| 21       | tbodyaccjerkmagmean          | Mean of time body acceleration Jerk signal magnitude
+| 22       | tbodygyromagmean             | Mean of time body gyroscope magnitude 
+| 23       | tbodygyrojerkmagmean         | Mean of time body gyroscope Jerk signal magnitude
+| 24       | fbodyaccmeanx                | Mean of frequency body acceleration in x-axis
+| 25       | fbodyaccmeany                | Mean of frequency body acceleration in y-axis
+| 26       | fbodyaccmeanz                | Mean of frequency body acceleration in z-axis
+| 27       | fbodyaccmeanfreqx            | Mean of frequency body acceleration mean frequency in x-axis
+| 28       | fbodyaccmeanfreqy            | Mean of frequency body acceleration mean frequency in y-axis
+| 29       | fbodyaccmeanfreqz            | Mean of frequency body acceleration mean frequency in z-axis
+| 30       | fbodyaccjerkmeanx            | Mean of frequency body acceleration Jerk signal in x-axis
+| 31       | fbodyaccjerkmeany            | Mean of frequency body acceleration Jerk signal in y-axis
+| 32       | fbodyaccjerkmeanz            | Mean of frequency body acceleration Jerk signal in z-axis
+| 33       | fbodyaccjerkmeanfreqx        | Mean of frequency body acceleration Jerk signal mean frequency in x-axis
+| 34       | fbodyaccjerkmeanfreqy        | Mean of frequency body acceleration Jerk signal mean frequency in y-axis
+| 35       | fbodyaccjerkmeanfreqz        | Mean of frequency body acceleration Jerk signal mean frequency in z-axis
+| 36       | fbodygyromeanx               | Mean of frequency body gyroscope signal in x-axis
+| 37       | fbodygyromeany               | Mean of frequency body gyroscope signal in y-axis
+| 38       | fbodygyromeanz               | Mean of frequency body gyroscope signal in z-axis
+| 39       | fbodygyromeanfreqx           | Mean of frequency body gyroscope signal mean frequency in x-axis
+| 40       | fbodygyromeanfreqy           | Mean of frequency body gyroscope signal mean frequency in y-axis
+| 41       | fbodygyromeanfreqz           | Mean of frequency body gyroscope signal mean frequency in z-axis
+| 42       | fbodyaccmagmean              | Mean of frequency body acceleration magnitude
+| 43       | fbodyaccmagmeanfreq          | Mean of frequency body acceleration magnitude mean frequency
+| 44       | fbodybodyaccjerkmagmean      | Mean of frequency body acceleration Jerk signal magnitude
+| 45       | fbodybodyaccjerkmagmeanfreq  | Mean of frequency body acceleration Jerk signal magnitude mean frequency
+| 46       | fbodybodygyromagmean         | Mean of frequency body gyroscope signal magnitude mean
+| 47       | fbodybodygyromagmeanfreq     | Mean of frequency body gyroscope signal magnitude mean frequency
+| 48       | fbodybodygyrojerkmagmean     | Mean of frequency body gyroscope Jerk signal magnitude mean
+| 49       | fbodybodygyrojerkmagmeanfreq | Mean of frequency body gyroscope Jerk signal magnitude mean frequency
+| 50       | tbodyaccstdx                 | Standard deviation of time body acceleration signals in x-axis
+| 51       | tbodyaccstdy                 | Standard deviation of time body acceleration signals in y-axis
+| 52       | tbodyaccstdz                 | Standard deviation of time body acceleration signals in z-axis
+| 53       | tgravityaccstdx              | Standard deviation of time gravity acceleration signals in x-axis
+| 54       | tgravityaccstdy              | Standard deviation of time gravity acceleration signals in y-axis
+| 55       | tgravityaccstdz              | Standard deviation of time gravity acceleration signals in z-axis
+| 56       | tbodyaccjerkstdx             | Standard deviation of time body acceleration Jerk signals in x-axis
+| 57       | tbodyaccjerkstdy             | Standard deviation of time body acceleration Jerk signals in y-axis
+| 58       | tbodyaccjerkstdz             | Standard deviation of time body acceleration Jerk signals in z-axis
+| 59       | tbodygyrostdx                | Standard deviation of time body gyroscope signals in x-axis
+| 60       | tbodygyrostdy                | Standard deviation of time body gyroscope signals in y-axis
+| 61       | tbodygyrostdz                | Standard deviation of time body gyroscope signals in z-axis
+| 62       | tbodygyrojerkstdx            | Standard deviation of time body gyroscop Jerk signals in x-axis
+| 63       | tbodygyrojerkstdy            | Standard deviation of time body gyroscop Jerk signals in y-axis
+| 64       | tbodygyrojerkstdz            | Standard deviation of time body gyroscop Jerk signals in z-axis
+| 65       | tbodyaccmagstd               | Standard deviation of time body acceleration magnitude
+| 66       | tgravityaccmagstd            | Standard deviation of time gravity acceleration magnitude
+| 67       | tbodyaccjerkmagstd           | Standard deviation of time body acceleration Jerk signals magnitude
+| 68       | tbodygyromagstd              | Standard deviation of time body gyroscope magnitude
+| 69       | tbodygyrojerkmagstd          | Standard deviation of time body gyroscope Jerk signals magnitude
+| 70       | fbodyaccstdx                 | Standard deviation of frequency body acceleration in x-axis
+| 71       | fbodyaccstdy                 | Standard deviation of frequency body acceleration in y-axis
+| 72       | fbodyaccstdz                 | Standard deviation of frequency body acceleration in z-axis
+| 73       | fbodyaccjerkstdx             | Standard deviation of frequency body acceleration Jerks signals in x-axis
+| 74       | fbodyaccjerkstdy             | Standard deviation of frequency body acceleration Jerks signals in y-axis
+| 75       | fbodyaccjerkstdz             | Standard deviation of frequency body acceleration Jerks signals in z-axis
+| 76       | fbodygyrostdx                | Standard deviation of frequency body gyroscope signals in x-axis
+| 77       | fbodygyrostdy                | Standard deviation of frequency body gyroscope signals in y-axis
+| 78       | fbodygyrostdz                | Standard deviation of frequency body gyroscope signals in z-axis
+| 79       | fbodyaccmagstd               | Standard deviation of frequency body acceleration magnitude 
+| 80       | fbodybodyaccjerkmagstd       | Standard deviation of body acceleration Jerk signals magnitude
+| 81       | fbodybodygyromagstd          | Standard deviation of body gyrocope magnitude
+| 82       | fbodybodygyrojerkmagstd      | Standard deviation of body gyroscope Jerk signals magnitude
 
 
 
