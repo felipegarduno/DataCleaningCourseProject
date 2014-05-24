@@ -2,21 +2,22 @@
 This codebook explains the script run_analysis.R that does the cleaning and merging of the train data set and test data set provided by the url https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Also explains the variables that conforms the final data set.
 
 ##Run_analysis.R
-The first three lines are used to read the files “X_test.txt”, “subject_test.txt” and “y_test.txt” that are contained in the “train” folder and keep the data sets in data frames with the names testdata, subjecttest and labeltest respective. The “X_test.txt” is a data set with the measures of the 561 variables explained in the “features.txt”; the “subject_test.txt” is a data set that identifies the subject that was carry the device; the “y_labels.txt” is a data set that has the coded activity that the subject was performing, the codes for the activities can be found in the “activity_labels.txt” file. The “features.txt” and “activity_labels.txt” are contained in the zip file download from the url above.
+The first three lines are used to download a zip file with the folders where the data sets “train” and “test” are, and to unzip it in the R working directory.The next three lines are used to read the files “X_test.txt”, “subject_test.txt” and “y_test.txt” that are contained in the “train” folder and keep the data sets in data frames with the names testdata, subjecttest and labeltest respective. The “X_test.txt” is a data set with the measures of the 561 variables explained in the “features.txt”; the “subject_test.txt” is a data set that identifies the subject that was carry the device; the “y_labels.txt” is a data set that has the coded activity that the subject was performing, the codes for the activities can be found in the “activity_labels.txt” file. The “features.txt” and “activity_labels.txt” are contained in the zip file download from the url above.
 
-The 4th line reads the “features.txt” file that contains the names of the 561 variables of the “X_test.txt”, so in the 5th line the names are attached to the testdata data set. 
-The 6-7 lines simply assign names to the variables Activiy and Subject of their respective data frames.
-The 8th line joins the testdata data frame, the subjecttest data frame and the labeltest data frames.
+The 7th line reads the “features.txt” file that contains the names of the 561 variables of the “X_test.txt”, so in the 8th line the names are attached to the testdata data set. 
+The 9-10 lines simply assign names to the variables Activiy and Subject of their respective data frames.
+The 11th line joins the testdata data frame, the subjecttest data frame and the labeltest data frames.
 
-The lines 9-15 does the same work with the data sets contained in the “test” folder.
-The 16th line of code join the data from the data frames “traindata” and “testdata” and this joined data is saved in a data frame named “joindata”.
+The lines 12-18 does the same work with the data sets contained in the “test” folder.
+The 19th line of code join the data from the data frames “traindata” and “testdata” and this joined data is saved in a data frame named “joindata”.
 
-The lines 17-18 locates the variables that measures mean and standard deviation and keep the locations on a vector, then this vector is used in line 19th to extract these variables and keep them in a new data frame named “filterdata”.
-The lines 20-23 matches the codes of the activities on the “filterdata” data frame and the “nameactivity” data frame that is created from reading the “activity_labels.txt”. After matching, the names of the activities are attached to the “filterdata” data frame in a new column. 
+The lines 20-21 locates the variables that measures mean and standard deviation and keep the locations on a vector, then this vector is used in line 22th to extract these variables and keep them in a new data frame named “filterdata”.
+The lines 23-26 matches the codes of the activities on the “filterdata” data frame and the “nameactivity” data frame that is created from reading the “activity_labels.txt”. After matching, the names of the activities are attached to the “filterdata” data frame in a new column. 
 
-The 27th line returns a data frame with the mean of each variable in the “filterdata” data frame for each subject for each activity. This data frame is named “meandataset”.
-The 28th line renames the first two columns in order to be more explicit.
-The final line of code writes the “meandataset” in a txt file named “tidy_data.txt”.
+The lines 27-29 rename the variables names to accomplish the standard of variable naming by taking out the capital letters, the hyphens and the parenthesis.
+The 30th line returns a data frame with the mean of each variable in the “filterdata” data frame for each subject for each activity. This data frame is named “meandataset”.
+The 31th line renames the first two columns in order to be more explicit.
+The final line of code writes the “meandataset” in a txt file named “tidy_data.txt” located in the R working directory.
 
 ##Variables.
 Here is the list of variables that are contained in the “tidy_data.txt” data set.
